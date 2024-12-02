@@ -25,9 +25,9 @@ const App = () => {
             <Stack.Screen name="Screen_3" component={Splash_screen_3} options={{ headerShown: false }} />
             <Stack.Screen name="Overview" component={Overview} options={{ headerShown: false }} />
             <Stack.Screen name="Login" component={Login} options={{headerTitle: 'Login', headerTitleAlign: 'center',}} />
-            <Stack.Screen name="App" component={MainProfile} options={{ headerShown: false }} />
-            {/* <Stack.Screen name="Profile" component={Profile} options={{ headerShown: false }} /> */}
-            {/* <Stack.Screen name="ProfilePage" component={ProfilePage} options={{headerTitle: 'Name', headerTitleAlign: 'center',}} /> */}
+            {/* <Stack.Screen name="App" component={MainProfile} options={{ headerShown: false }} /> */}
+            <Stack.Screen name="Profile" component={Profile} options={{ headerShown: false }} />
+            <Stack.Screen name="ProfilePage" component={ProfilePage} options={{headerTitle: 'Name', headerTitleAlign: 'center',}} />
         </Stack.Navigator>
     </NavigationContainer>
     </>

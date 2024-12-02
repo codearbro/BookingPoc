@@ -2,9 +2,9 @@ import { Text, StyleSheet, Pressable } from 'react-native'
 import React from 'react'
 import { constant } from '../assets/constants'
 
-const LoginBtn = ({children, navigationToNext, backgroundColor, textcolor}) => {
+const LoginBtn = ({children, navigationToNext, backgroundColor, textcolor, width}) => {
   return (
-    <Pressable style={[style.btn, backgroundColor && {backgroundColor}]} onPress={navigationToNext}>
+    <Pressable style={[style.btn, backgroundColor && {backgroundColor}, width && {width}]} onPress={navigationToNext}>
         <Text style={[style.text, textcolor && {color: textcolor}]}>{children}</Text>
     </Pressable>
   )
