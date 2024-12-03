@@ -14,4 +14,4 @@ const Splash_screen_1 = ({navigation}) => {
   )
 }
 
-export default Splash_screen_1
+export default Splash_screen_1 
